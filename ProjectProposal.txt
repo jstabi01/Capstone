@@ -1,0 +1,20 @@
+
+1. What goal will your website be designed to achieve?
+	The website I will be creating will be designed to let users practice trading cryptocurrency based on real time price changes. User will be able to log in and "buy" cryptocurrency, the amount purchased will be stored in user data and the current price will be calculated. Advance features will add graphs and charts to display the change over time.
+2. What kind of users will visit your site? In other words, what is the demographic of your users?
+	Anyone looking to learn and practice crypto trading.
+3. What data do you plan on using? You may have not picked your actual API yet,which is fine, just outline what kind of data you would like it to contain.
+	The API will contain crypto currency prices and conversions.
+4. In brief, outline your approach to creating your project (knowing that you may notknow everything in advance and that these details might change later). Answer questions like the ones below, but feel free to add more information:
+	a.What does your database schema look like?
+		User will have username, password, wallet values for crypto owned as well as the current price
+	b.What kinds of issues might you run into with your API?
+		Formulas involving price change wil not work correctly if current API cannot be opened. Prices will have to be stored for time of purchase and kept for each time there is a change, this may be complicated to perform
+	c.Is there any sensitive information you need to secure?
+		username password, any additional personal information
+	d.What functionality will your app include?
+		Ability to review current value of your wallet, buy and sell at different times dependent on current prices. Perhaps the ability to compare yourself to other users based on % gained or lost. Other statistics of this order.
+	e.What will the user flow look like?
+		User will create an account and password. Will then be able to browse crpyto prices for any coin in the API and decide to purchase the desired amount. This value will rise and fall as coin prices do and the user should be able to see the % change from when purchased as well as trade the initial purchases for other value. Perhaps a fixed amount per account would be a feature to be established with new accounts being created if your money is lost. (or the ability to reset and accounts statistics)
+	f.What features make your site more than CRUD? Do you have any stretchgoals?
+		As above, advanced features such as leaderboards and rankings
